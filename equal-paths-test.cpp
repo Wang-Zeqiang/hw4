@@ -62,11 +62,11 @@ int main()
   c = new Node(3);
   d = new Node(4);
 
-  test1("Test1");
-  test2("Test2");
-  test3("Test3");
-  test4("Test4");
-  test5("Test5");
+  test1("Test1"); // expected 1
+  test2("Test2"); // expected 1
+  test3("Test3"); // expected 1
+  test4("Test4"); // expected 1
+  test5("Test5"); // expected 0
  
   delete a;
   delete b;
